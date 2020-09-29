@@ -1,0 +1,23 @@
+// Fonts loader
+@import './fonts/loader.scss';
+
+// Variables
+@import './variables/breakpoints.scss';
+@import './variables/colors.scss';
+@import './variables/fonts.scss';
+@import './variables/magic-numbers.scss';
+
+// Mixins
+@import './mixins/container.scss';
+
+// Layout styles
+@import './layouts/reset.scss';
+@import './layouts/default.scss';
+
+// Blocks
+@import './blocks/button.scss';
+@import './blocks/input.scss';
+
+// Components
+@import './components/appliance.scss';
+@import './components/form-appliance.scss';

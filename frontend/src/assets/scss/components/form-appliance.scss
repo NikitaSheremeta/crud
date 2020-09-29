@@ -1,0 +1,33 @@
+.form-appliance {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  width: 100%;
+
+  .wrapper--action {
+    margin-top: $lg-offset;
+  }
+}
+
+@include media-breakpoint-up(xx) {
+  .form-appliance {
+    .wrapper--action {
+      .button:first-child {
+        margin-right: $xs-offset;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xxs) {
+  .form-appliance {
+    .wrapper--action {
+      flex-direction: column;
+
+      .button {
+        margin-top: $xs-offset;
+        width: 100%;
+      }
+    }
+  }
+}

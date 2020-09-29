@@ -1,0 +1,44 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 40px;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  background-color: $gray-200;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+
+  &.active {
+    display: none;
+  }
+
+  &--small {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 32px;
+  }
+
+  // Button success modification
+  &--outline {
+    background-color: transparent;
+    border: 1px solid $disabled;
+  }
+
+  // Button primary color modification
+  &--primary {
+    color: $white;
+    background-color: $primary;
+  }
+
+  // Button success color modification
+  &--success {
+    color: $white;
+    background-color: $green;
+  }
+}

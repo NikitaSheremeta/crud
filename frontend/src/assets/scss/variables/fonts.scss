@@ -1,0 +1,28 @@
+// Font pairs
+$font-family-primary            : 'Journal Sans', Helvetica, sans-serif !default;
+$font-family-secondary          : 'Arial', 'Helvetice', sans-serif !default;
+
+// Font weight
+$font-weight-regular            : normal !default;
+$font-weight-bold               : bold !default;
+
+// Font settings
+$line-height-base               : 1.5 !default;
+$font-size-base                 : 1rem!default;
+$font-weight-base               : $font-weight-regular !default;
+$font-family-base               : $font-family-primary !default;
+
+// Font size
+$font-size-h1                   : $font-size-base * 3.5 !default;
+$font-size-h2                   : $font-size-base * 2 !default;
+$font-size-h3                   : $font-size-base * 1.75 !default;
+$font-size-h4                   : $font-size-base * 1.5 !default;
+$font-size-h5                   : $font-size-base * 1.25 !default;
+$font-size-h6                   : $font-size-base * 1.125!default;
+$font-size-sm                   : $font-size-base * 0.9375 !default;
+$font-size-xs                   : $font-size-base * 0.875 !default;
+
+// Font color
+$font-color-primary             : $black !default;
+$font-color-secondary           : $gray-600 !default;
+$font-color-disabled            : $gray-400 !default;
